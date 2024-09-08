@@ -37,12 +37,13 @@ function arrangeData(){
         // for (let y = 0; y < newArray.length; y++) {
         // }
     } 
-     const mergedArray = newArray.flat(10);
-   finalMedicineList.push(mergedArray) 
+    //  const mergedArray = newArray.flat(10);
+     console.log(newArray)
+  //  finalMedicineList.push(mergedArray) 
 
- const array = finalMedicineList
+//  const array = finalMedicineList
 
-    dataCheck.checkData(finalMedicineList)
+    dataCheck.checkData(newArray)
     
     } 
    
